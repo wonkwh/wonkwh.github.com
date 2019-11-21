@@ -1,4 +1,9 @@
-on: push
+on:
+  push:
+    branches:    
+      - next         # Push events on next branch
+      
+          
 name: Build and deploy on push
 jobs:
   build:
